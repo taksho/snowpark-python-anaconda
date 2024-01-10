@@ -111,7 +111,9 @@ page_names_to_funcs = {
     "Load packages 1 to 400": display_packages_as_blocks,
     "Load packages 401 to 800": display_packages_as_blocks,
     "Load packages 801 to 1200": display_packages_as_blocks,
-    "Load packages 1201 to 1600": display_packages_as_blocks   
+    "Load packages 1201 to 1600": display_packages_as_blocks,
+    "Load packages 1601 to 2000": display_packages_as_blocks,
+    "Load packages 2001 to End": display_packages_as_blocks   
 }
 selected_page = st.sidebar.selectbox("Select range", page_names_to_funcs.keys())
 st.sidebar.markdown("---")
