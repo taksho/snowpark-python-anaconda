@@ -30,10 +30,10 @@ st.markdown("""
         font-size: 30px;
         color: #FFFFFF;
     }
-    [data-testid=stSidebar] {
-        background-color: rgb(129, 164, 182);
-        color: #FFFFFF;
-    }
+    # [data-testid=stSidebar] {
+    #     background-color: rgb(129, 164, 182);
+    #     color: #FFFFFF;
+    # }
     [aria-selected="true"] {
          color: #000000;
     }
